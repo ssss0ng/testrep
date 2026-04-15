@@ -16,4 +16,3 @@ File Reporting: Generates a structured project folder containing a full text rep
 2. Execution: Run the oss_task5.ipynb or .py file from top to bottom.
 3. Input: The program will prompt for exactly 4 contributors and 5 issues via the console.
 4. Output:A welcome banner and data summary will print to the console.A local folder (e.g., open_track/) will be created containing project_report.txt and issues.csv.
-5. 
