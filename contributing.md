@@ -2,9 +2,9 @@
 This guide outlines the technical standards and coding requirements for developers looking to modify or extend the Contributor Management and Issue Tracking System.
 
 # Technical Requirements
-Environment: Development must be conducted in Google Colab or a standard Python 3.12.12 environment.
-Input Handling: All data for projects, contributors, and issues must be gathered using the input() function to ensure dynamic data collection.
-Program Flow: The script must be written as a single, continuous program where data from early sections is passed to later ones.
+1. Environment: Development must be conducted in Google Colab or a standard Python 3.12.12 environment.
+2. Input Handling: All data for projects, contributors, and issues must be gathered using the input() function to ensure dynamic data collection.
+3. Program Flow: The script must be written as a single, continuous program where data from early sections is passed to later ones.
 
 # Project Architecture & Core Logic
 To contribute effectively, please understand the following implementation details:
@@ -20,5 +20,5 @@ Error Handling: File operations must be wrapped in try/except blocks, specifical
 Formatting: All final summary outputs and file writes must utilize f-strings; string concatenation using the + operator is prohibited in these sections.
 
 # Contribution Policy
-Individual Effort: This project follows a strict individual code policy.
-Originality: While conceptual discussions are allowed, all logic and code implementation must be your own.
+1. Individual Effort: This project follows a strict individual code policy.
+2. Originality: While conceptual discussions are allowed, all logic and code implementation must be your own.
