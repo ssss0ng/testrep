@@ -5,10 +5,10 @@ This Python-based application serves as a command-line tool for managing open-so
 1. Project Initialization: Stores official project metadata (name, version, lead) in immutable structures.
 2. Contributor Management: Registers contributors with details such as roles, languages, and commit counts using dictionaries.
 3. Issue Tracking: Collects and categorizes project issues by priority (Critical, High, Medium, Low) and status.
-4. Data Analysis:
--Calculates "Open" issue counts without built-in counting methods.
--Identifies the top reporter through custom logic.
--Maps tech stacks and reporter sets using set operations (union, intersection, difference).
+4. Data Analysis:  
+-Calculates "Open" issue counts without built-in counting methods.  
+-Identifies the top reporter through custom logic.  
+-Maps tech stacks and reporter sets using set operations (union, intersection, difference).  
 5. File Reporting: Generates a structured project folder containing a full text report and a CSV summary of all tracked issues.
 
 # Setup and Usage
