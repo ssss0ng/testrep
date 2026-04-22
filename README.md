@@ -2,9 +2,9 @@
 This Python-based application serves as a command-line tool for managing open-source project data, including contributor details and issue tracking. The system is designed to run as a single, continuous program where data from early stages flows into subsequent analysis and reporting phases.
 
 # Environment
-Python 3.x
-OS: Windows / macOS / Linux
-IDE: Jupyter Notebook, VS Code, or Google Colab
+Python 3.x 
+OS: Windows / macOS / Linux 
+IDE: Jupyter Notebook, VS Code, or Google Colab 
 Libraries: Standard Python libraries (os, file I/O)
 
 # Core Features
