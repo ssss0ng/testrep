@@ -1,3 +1,17 @@
+# Technical Documentation: Functionality and Logic
+This document explains the functional logic and built-in Python methods implemented to handle data processing and file management.  
+
+# File I/O and System Operations
+os.makedirs() & os.path.join(): Manages directory creation and handles file paths safely across different operating systems.  
+open() with Modes:  
+  'w' (Write): Creates and overwrites the initial project_report.txt and issues.csv.  
+  'a' (Append): Adds the "Urgent Issues" section to the end of the report without deleting existing content.  
+File Reading:  
+read() / readline(): Used for basic file verification.  
+readlines(): Specifically used with negative slicing ([-6:]) to read and display the last 6 lines of the report.  
+
+
+
 # contributors
 The central collection for all registered members of the project.  
 Structure: A list of dictionary objects, where each dictionary represents a contributor with keys for name, role, language, commits, and country.  
