@@ -1,6 +1,14 @@
 # Technical Documentation: Functionality and Logic
 This document explains the functional logic and built-in Python methods implemented to handle data processing and file management.  
 
+# Contributor and Issue Management
+list.append(): Adds newly created dictionaries (contributors/issues) into their respective master lists.  
+list.sort(): Orders the names list alphabetically to ensure a professional and organized display in the final report.  
+Dictionary Methods:  
+  get(): Safely retrieves values from contributor records.  
+  update(): Used to modify or add new keys (like status: 'Active') to the contributor dictionaries.  
+  keys(), values(), items(): Essential for iterating through issue data to extract priorities and reporters.  
+
 # File I/O and System Operations
 os.makedirs() & os.path.join(): Manages directory creation and handles file paths safely across different operating systems.  
 open() with Modes:  
@@ -9,8 +17,6 @@ open() with Modes:
 File Reading:  
 read() / readline(): Used for basic file verification.  
 readlines(): Specifically used with negative slicing ([-6:]) to read and display the last 6 lines of the report.  
-
-
 
 # contributors
 The central collection for all registered members of the project.  
