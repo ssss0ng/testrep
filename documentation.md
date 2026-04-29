@@ -9,6 +9,12 @@ Dictionary Methods:
   update(): Used to modify or add new keys (like status: 'Active') to the contributor dictionaries.  
   keys(), values(), items(): Essential for iterating through issue data to extract priorities and reporters.  
 
+# Set Operations
+The project utilizes the set class to perform complex data comparisons:  
+union(): Combines all languages from different contributors into a single tech stack.  
+intersection(): Identifies common technical interests or overlapping reporters.  
+difference(): Highlights the gap between required skills and available contributor expertise.  
+
 # File I/O and System Operations
 os.makedirs() & os.path.join(): Manages directory creation and handles file paths safely across different operating systems.  
 open() with Modes:  
@@ -16,7 +22,12 @@ open() with Modes:
   'a' (Append): Adds the "Urgent Issues" section to the end of the report without deleting existing content.  
 File Reading:  
 read() / readline(): Used for basic file verification.  
-readlines(): Specifically used with negative slicing ([-6:]) to read and display the last 6 lines of the report.  
+readlines(): Specifically used with negative slicing ([-6:]) to read and display the last 6 lines of the report. 
+
+# Error and String Handling
+try...except Blocks:  
+IOError: Catches permission or disk space issues during the writing phase.  
+FileNotFoundError: Ensures the program doesn't crash if a report is missing during the reading phase.  
 
 # contributors
 The central collection for all registered members of the project.  
